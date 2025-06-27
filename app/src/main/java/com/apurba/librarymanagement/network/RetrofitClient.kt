@@ -12,8 +12,9 @@ import javax.net.ssl.X509TrustManager
 
 object RetrofitClient {
     
-    private const val BASE_URL = "https://192.168.0.103:7291/" // Your localhost server with HTTPS
-    
+//    private const val BASE_URL = "https://192.168.0.103:7291/"
+    private const val BASE_URL = "https://172.16.209.123:7291/"
+
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
     }
