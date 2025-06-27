@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "app/build/",
+    "build/",
+    "**/build/",
+    "**/.gradle/"
+  ]
+}
